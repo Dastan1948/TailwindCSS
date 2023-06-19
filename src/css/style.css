@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container2 {
+    @apply max-w-screen-xl mx-auto;
+}
+
+.btn-add {
+    @apply w-full h-10 block bg-[#F2F2F3] text-center rounded-[12px] hover:bg-indigo-600 transition-all duration-500;
+}

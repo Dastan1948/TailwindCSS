@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TailwindCSS</title>
+    <link rel="stylesheet" href="./../dist/output.css" />
+  </head>
+  <body>
+    <header class="relative overflow-hidden h-[466px] pt-6 mb-10">
+      <div class="container2 relative z-10">
+        <div class="mb-6">
+          <img class="block mx-auto" src="./icons/logo/Group 7.svg" alt="" />
+        </div>
+        <div class="flex items-start justify-center gap-5">
+          <div>
+            <img src="./img/pic.png" alt="" />
+          </div>
+          <div class="pt-10">
+            <h1 class="text-5xl text-white font-bold mb-[52px]">
+              Только самые <br />
+              <span class="text-red-600"> сочные бургеры! </span>
+            </h1>
+            <p class="text-white">Бесплатная доставка от 599₽</p>
+          </div>
+        </div>
+      </div>
+      <!-- Element -->
+      <div
+        class="bg-special-orange w-[2880px] h-[2880px] rounded-full absolute -top-[2414px] -left-[720px] z-0"
+      ></div>
+    </header>
+
+    <main>
+      <section class="mb-[50px]">
+        <div class="container2">
+          <div class="flex items-center justify-center gap-6">
+            <!-- first categorias -->
+            <div class="flex items-center p-2 bg-special-orange rounded-3xl">
+              <img
+                class="inline-block mr-2"
+                src="./icons/food/free-icon-cheeseburger-2362255.svg"
+                alt="burger"
+              />
+              <span>Бургеры</span>
+            </div>
+            <!-- second -->
+            <div class="flex items-center p-2">
+              <img
+                class="inline-block mr-2"
+                src="./icons/food/free-icon-onion-2362361.svg"
+                alt="onion"
+              />
+              <span>Закуски</span>
+            </div>
+
+            <!-- third  -->
+            <div class="flex items-center p-2">
+              <img
+                class="inline-block mr-2"
+                src="./icons/food/free-icon-hotdog-sandwich-2362313.svg"
+                alt="hot-dog"
+              />
+              <span>Хот-доги</span>
+            </div>
+            <!-- fourth -->
+            <div class="flex items-center p-2">
+              <img
+                class="inline-block mr-2"
+                src="./icons/food/free-icon-fast-food-2362274.svg"
+                alt="fast-food"
+              />
+              <span>Комбо</span>
+            </div>
+            <!-- fiveth -->
+            <div class="flex items-center p-2">
+              <img
+                class="inline-block mr-2"
+                src="./icons/food/free-icon-burrito-2362225.svg"
+                alt="burrito"
+              />
+              <span>Шаурма</span>
+            </div>
+            <!-- sixth -->
+            <div class="flex items-center p-2">
+              <img
+                class="inline-block mr-2"
+                src="./icons/food/free-icon-pizza-2362372.svg"
+                alt="pizza"
+              />
+              <span>Пицца</span>
+            </div>
+            <!-- seventh -->
+            <div class="flex items-center p-2">
+              <img
+                class="inline-block mr-2"
+                src="./icons/food/free-icon-noodles-2362350.svg"
+                alt="noodles"
+              />
+              <span>Вок</span>
+            </div>
+            <!-- eighth -->
+            <div class="flex items-center p-2">
+              <img
+                class="inline-block mr-2"
+                src="./icons/food/free-icon-doughnut-2362260.svg"
+                alt="doughnut"
+              />
+              <span>Десерты</span>
+            </div>
+            <!-- ninneth -->
+            <div class="flex items-center p-2">
+              <img
+                class="inline-block mr-2"
+                src="./icons/food/free-icon-ketchup-2362341.svg"
+                alt="ketchup"
+              />
+              <span>Соусы</span>
+            </div>
+            <!--  -->
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-24">
+        <div class="container2">
+          <!-- Заголовок -->
+          <div class="ml-[285px]">
+            <h3 class="text-4xl mb-6">Бургеры</h3>
+          </div>
+
+          <div class="flex gap-[30px]">
+            <!-- card start -->
+            <div class="w-[300px] h-[467px]">
+              <div class="flex items-center mb-3">
+                <!-- Заголовок -->
+                <h4 class="mr-[129px] text-[24px]">Корзина</h4>
+                <div
+                  class="flex justify-center bg-[#F2F2F3] items-center w-[41px] h-[20px] rounded-[6px]"
+                >
+                  <div data-count="">4</div>
+                </div>
+              </div>
+              <!-- Карточка -->
+
+              <!-- Первая Начало -->
+              <div
+                class="flex gap-1.5 border-x-0 border-t-[1px] border-solid border-[#F2F2F3] py-4 w-[268px] h-84px"
+              >
+                <div>
+                  <img
+                    src="./icons/burgers/card-burger.png"
+                    alt="card-burger"
+                  />
+                </div>
+                <div class="flex flex-col mr-8">
+                  <span class="text-xs w-[90px]">Супер сырный</span>
+                  <span class="text-xs mb-1.5 text-[#B1B1B1]">512г</span>
+                  <span data-price class="text-xs">550₽</span>
+                </div>
+                <div
+                  class="flex justify-around bg-[#F2F2F3] items-center w-[84px] h-[40px] rounded-[12px]"
+                >
+                  <div data-inc class="cursor-pointer">-</div>
+                  <div data-number>1</div>
+                  <div data-dec class="cursor-pointer">+</div>
+                </div>
+              </div>
+              <!-- Первая Конец -->
+
+              <!-- Вторая Начало -->
+              <div
+                class="flex gap-1.5 border-x-0 border-t-[1px] border-solid border-[#F2F2F3] py-4 w-[268px] h-84px"
+              >
+                <div>
+                  <img src="./icons/burgers/free.png" alt="free" />
+                </div>
+                <div class="flex flex-col mr-8">
+                  <span class="text-xs w-[90px]">Картошка фри</span>
+                  <span class="text-xs mb-1.5 text-[#B1B1B1]">180г</span>
+                  <span data-price class="text-xs">245₽</span>
+                </div>
+                <div
+                  class="flex justify-around bg-[#F2F2F3] items-center w-[84px] h-[40px] rounded-[12px]"
+                >
+                  <div data-inc class="cursor-pointer">-</div>
+                  <div data-number>2</div>
+                  <div data-dec class="cursor-pointer">+</div>
+                </div>
+              </div>
+              <!-- Вторая Конец -->
+
+              <!-- Третье Начало -->
+              <div
+                class="flex gap-1.5 border-x-0 border-y-[1px] border-solid border-[#F2F2F3] py-4 w-[268px] h-84px mb-4"
+              >
+                <div>
+                  <img src="./icons/burgers/hot-dog.png" alt="hot-dog" />
+                </div>
+                <div class="flex flex-col mr-8">
+                  <span class="text-xs w-[90px]">Жгучий хот-дог</span>
+                  <span class="text-xs mb-1.5 text-[#B1B1B1]">245г</span>
+                  <span data-price class="text-xs">239₽</span>
+                </div>
+                <div
+                  class="flex justify-around bg-[#F2F2F3] items-center w-[84px] h-[40px] rounded-[12px]"
+                >
+                  <div data-inc class="cursor-pointer">-</div>
+                  <div data-number>1</div>
+                  <div data-dec class="cursor-pointer">+</div>
+                </div>
+              </div>
+              <!-- Третье Конец -->
+
+              <!-- Итого -->
+              <div class="flex mb-6">
+                <p class="mr-[176px]">Итого</p>
+                <span data-total="">  </span>
+              </div>
+
+              <!-- Оформить заказ -->
+              <button
+                class="flex items-center justify-center rounded-[12px] px-2.5 py-8 w-[268px] h-[40px] bg-special-orange mb-2"
+              >
+                Оформить заказ
+              </button>
+
+              <!-- Доставка -->
+              <div class="flex items-center gap-2">
+                <img
+                  src="./icons/burgers/free-icon-delivery-2362252.svg"
+                  alt="delivery"
+                />
+                <span>Бесплатная доставка</span>
+              </div>
+            </div>
+            <!-- finish -->
+
+            <!-- Burgers box -->
+            <!-- Start -->
+            <div class="flex flex-wrap gap-[30px]">
+              <!-- 1 -->
+              <div class="w-[300px] h-[411px]">
+                <img class="mb-3" src="./img/burger-box/photo.png" alt="burger1">
+                <span class="mb-2 text-[24px]">689₽</span>
+                <p class="mb-7">Мясная бомба</p>
+                <span class="block text-[#B1B1B1] mb-2">520г</span>
+                <button class="btn-add">Добавить</button>
+              </div>
+
+              <!-- 2 -->
+              <div class="w-[300px] h-[411px]">
+                <img class="mb-3" src="./img/burger-box/photo2.png" alt="burger2">
+                <span class="mb-2 text-[24px]">550₽</span>
+                <p class="mb-7">Мясная бомба</p>
+                <span class="block text-[#B1B1B1] mb-2">520г</span>
+                <button class="btn-add">Добавить</button>
+              </div>
+
+              <!-- 3 -->
+              <div class="w-[300px] h-[411px]">
+                <img class="mb-3" src="./img/burger-box/photo3.png" alt="burger3">
+                <span class="mb-2 text-[24px]">689₽</span>
+                <p class="mb-7">Мясная бомба</p>
+                <span class="block text-[#B1B1B1] mb-2">520г</span>
+                <button class="btn-add">Добавить</button>
+              </div>
+
+              <!-- 4 -->
+              <div class="w-[300px] h-[411px]">
+                <img class="mb-3" src="./img/burger-box/photo4.png" alt="burger4">
+                <span class="mb-2 text-[24px]">689₽</span>
+                <p class="mb-7">Мясная бомба</p>
+                <span class="block text-[#B1B1B1] mb-2">520г</span>
+                <button class="btn-add">Добавить</button>
+              </div>
+
+              <!-- 5 -->
+              <div class="w-[300px] h-[411px]">
+                <img class="mb-3" src="./img/burger-box/photo5.png" alt="burger5">
+                <span class="mb-2 text-[24px]">689₽</span>
+                <p class="mb-7">Мясная бомба</p>
+                <span class="block text-[#B1B1B1] mb-2">520г</span>
+                <button class="btn-add">Добавить</button>
+              </div>
+
+              <!-- 6 -->
+              <div class="w-[300px] h-[411px]">
+                <img class="mb-3" src="./img/burger-box/photo6.png" alt="burger6">
+                <span class="mb-2 text-[24px]">689₽</span>
+                <p class="mb-7">Мясная бомба</p>
+                <span class="block text-[#B1B1B1] mb-2">520г</span>
+                <button class="btn-add">Добавить</button>
+              </div>
+
+            </div>
+            <!-- Finish -->
+            
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container2">
+        <div class="flex mb-8">
+          <!-- logo -->
+          <div class="mr-[360px]">
+            <img src="./icons/logo/Group 7-big.svg" alt="">
+          </div>
+          <!-- Phone Number -->
+          <div class="mr-[126px]">
+            <p class="text-[24px] leading-[100%] mb-6">Номер для заказа</p>
+            <div class="flex">
+              <img src="./icons/Call.svg" alt="">
+              <span>+7(930)833-38-11</span>
+            </div>
+          </div>
+          <!-- Socials -->
+          <div>
+            <p class="text-[24px] leading-[100%] mb-6">Мы в соцсетях</p>
+            <div>
+              <button class="mr-4">
+                <img class="w-[36px] h-[36px]" src="./icons/vk.svg" alt="">
+              </button>
+              <button>
+                <img class="w-[36px] h-[36px]" src="./icons/bi_telegram.svg" alt="">
+              </button>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="text-xs">© YouMeal, 2022</p>
+          <p class="text-xs">Design: Anastasia Ilina</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
