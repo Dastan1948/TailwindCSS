@@ -643,6 +643,10 @@ video {
   display: flex;
 }
 
+.grid {
+  display: grid;
+}
+
 .h-\[20px\] {
   height: 20px;
 }
@@ -701,6 +705,10 @@ video {
 
 .cursor-pointer {
   cursor: pointer;
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -834,10 +842,6 @@ video {
 
 .pt-6 {
   padding-top: 1.5rem;
-}
-
-.text-center {
-  text-align: center;
 }
 
 .text-4xl {
